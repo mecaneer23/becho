@@ -1,0 +1,6 @@
+#!/bin/python3
+
+import sys
+import pyfiglet
+
+print(pyfiglet.figlet_format(" ".join(sys.argv[1:])))

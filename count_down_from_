@@ -1,0 +1,14 @@
+#!/bin/python3
+
+import sys
+import pyfiglet
+
+if len(sys.argv) > 1:
+    inp = int(sys.argv[1])
+else:
+    print("Make sure to include a starting number")
+    exit()
+
+for i in range(inp, -1, -1):
+    print(pyfiglet.figlet_format(str(i)))
+    input()
